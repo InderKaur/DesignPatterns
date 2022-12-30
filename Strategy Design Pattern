@@ -1,0 +1,5 @@
+
+Here, in the given example, some of the derived classes are overriding the base class functions. However, some of the function definitions are same. For example,
+ extended definition of drive() for SportVehicle and OffRoadVehicle is same. So, we are duplicating the code since base class doesn't have the definition that we need.
+ 
+The Strategy pattern lets you indirectly alter the object’s behavior at runtime by associating it with different sub-objects which can perform specific sub-tasks in different ways
